@@ -1,0 +1,17 @@
+.contain {
+    display: flex;
+    flex-direction: row;
+}
+.option {
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.option{
+    cursor: pointer;
+}
+
+.button{
+
+}
