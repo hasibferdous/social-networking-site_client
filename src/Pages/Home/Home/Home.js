@@ -11,7 +11,7 @@ const Home = () => {
             <div className='Container'>
                 <LeftContainer></LeftContainer>
                 <MainContainer></MainContainer>
-                <RightContainer></RightContainer>
+                {/* <RightContainer></RightContainer> */}
             </div>
             
 

@@ -26,7 +26,7 @@ const Header = () => {
     </>
     return (
         <div className="xl:container xl:mx-auto">
-            <div className="bg-blue-300 rounded shadow-lg px-7">
+            <div className=" rounded shadow-lg px-7">
                 <nav className="lg:flex lg:justify-between">
                     <div className="flex items-center space-x-3 lg:pr-16 pr-6">
                     <img
@@ -40,8 +40,8 @@ const Header = () => {
                     <div className='mb-3 p-5 ps-5'>
                     <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
                         <Link className={` 'text-white bg-indigo-200 ' : 'text-gray-600 border border-white bg-gray-50'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-4 py-4 font-normal text-sm leading-3 shadow-md rounded`} to='/'><strong>Home</strong></Link>
-                        <Link className={` 'text-white bg-indigo-200 ' : 'text-gray-600 border border-white bg-gray-50'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-4 py-4 font-normal text-sm leading-3 shadow-md rounded`} to='/media'><strong>Media</strong></Link>
-                        <Link className={` 'text-white bg-indigo-200 ' : 'text-gray-600 border border-white bg-gray-50'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-4 py-4 font-normal text-sm leading-3 shadow-md rounded`} to=''><strong>Messsage</strong></Link>
+                        <Link className={` 'text-white bg-indigo-200 ' : 'text-gray-600 border border-white bg-gray-50'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-4 py-4 font-normal text-sm leading-3 shadow-md rounded`} to='/'><strong>Media</strong></Link>
+                        <Link className={` 'text-white bg-indigo-200 ' : 'text-gray-600 border border-white bg-gray-50'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-4 py-4 font-normal text-sm leading-3 shadow-md rounded`} to='/'><strong>Messsage</strong></Link>
                         <Link className={` 'text-white bg-indigo-200 ' : 'text-gray-600 border border-white bg-gray-50'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-4 py-4 font-normal text-sm leading-3 shadow-md rounded`} to='/about'><strong>About</strong></Link>
                         
                         <Link className={`'text-white bg-indigo-100 lg-hidden' : 'text-gray-600 border border-white bg-gray-50'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer px-3 py-2.5 font-normal text-sm leading-3 shadow-md rounded`} href=''>
